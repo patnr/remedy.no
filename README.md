@@ -24,3 +24,12 @@ The page should automatically refresh whenever you save a source markdown file.
 ```bash
 mkdocs serve
 ```
+
+
+## FAQ
+
+- Q: How did you make the home page image?  
+  A: Assembled a few `png`s with transparency.
+- Q: How did you make the footer logos?  
+  A: Googled "<company name> svg".
+     Then used regex to replace all hex colors with "white".
