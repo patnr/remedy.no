@@ -1,4 +1,3 @@
-# From https://github.com/mhausenblas/mkdocs-deploy-gh-pages
 name: Publish mkDocs via GitHub Pages
 on:
   push:
