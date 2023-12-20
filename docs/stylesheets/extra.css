@@ -1,0 +1,19 @@
+/****************/
+/* Footer stuff */
+/****************/
+.md-grid {
+  flex-grow: 1;
+}
+
+/* Media query for narrow screens (e.g., mobile) */
+@media screen and (max-width: 600px) {
+  .md-footer-meta__inner {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+}
+
+/* Don't know why this is set to 100% but it prevents horizontal centering on small screens */
+.md-copyright {
+    width: auto;
+}

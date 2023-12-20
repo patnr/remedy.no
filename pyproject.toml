@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "remedy"
+version = "0.1.0"
+description = ""
+authors = ["Patrick"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs-roamlinks-plugin = "^0.3.2"
+mkdocs-material = "^9.5.2"
+mkdocs-markdown-filter = "^0.1.1"
+mkdocs-glightbox = "^0.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
