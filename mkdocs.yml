@@ -30,7 +30,7 @@ theme:
     # Light Mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple # deep orange
+      primary: deep blue
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
