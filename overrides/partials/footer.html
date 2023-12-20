@@ -96,14 +96,14 @@
         </div>
 
         {% for logo in config.extra.footer.logos.row1 %}
-          <img src="{{ "/attachments/logos/"|url }}{{ logo.name }}" alt="logo"
+          <img src="{{ "attachments/logos/"|url }}{{ logo.name }}" alt="logo"
             style="height: {{ logo.height }}; filter: brightness({{ logo.brightness }}); margin: auto 0.6rem auto 0.6rem" />
         {% endfor %}
       </div>
 
       <div class="md-footer-meta__inner md-grid">
         {% for logo in config.extra.footer.logos.row2 %}
-          <img src="{{ "/attachments/logos/"|url }}{{ logo.name }}" alt="logo"
+          <img src="{{ "attachments/logos/"|url }}{{ logo.name }}" alt="logo"
             style="height: {{ logo.height }}; filter: brightness({{ logo.brightness }}); margin: auto 0.6rem auto 0.6rem" />
         {% endfor %}
       </div>
