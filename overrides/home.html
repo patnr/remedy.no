@@ -41,16 +41,20 @@
     }
 
     .tx-hero__image{
-        width:17rem;
-        height:17rem;
+        max-width:17rem;
+        max-height:17rem;
         order:1;
-        padding-right: 2.5rem;
         margin-left: auto;
         margin-right: auto;
 
     }
 
     @media screen and (max-width:30em) {
+        .tx-hero {
+            margin: 32px 1rem;
+            color: var(--md-primary-bg-color);
+            justify-content: center;
+        }
         .tx-hero h1 {
             font-size: 1.4rem
         }
